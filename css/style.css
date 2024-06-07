@@ -1,0 +1,28 @@
+/* header styles */
+header {
+  padding: 53px 350px 136px 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 18px;
+  padding: 0 40px 0 195px;
+}
+header ul li a {
+  color: #37393f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header a button {
+  padding: 21px 35px 22px 35px;
+  background: #6b77e5;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
