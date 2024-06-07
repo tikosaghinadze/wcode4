@@ -127,3 +127,84 @@ header a button {
 .short-video div img {
   margin-top: 47px;
 }
+/* about page section 1's style (Meet Our Experts)*/
+.our-team {
+  padding: 150px 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-team h5 {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.our-team h2 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  padding: 16px 0 56px 0;
+}
+.experts {
+  display: flex;
+  gap: 31px;
+}
+.experts div {
+  display: flex;
+  align-items: flex-end;
+  width: 341px;
+  padding: 0px 24px;
+}
+.experts div div {
+  width: 341px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+.experts div div h3 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.experts div div span {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.187%;
+}
+.expert1 {
+  width: 386px;
+  height: 532px;
+  background-image: url("../images/Photo.svg");
+  background-repeat: no-repeat;
+}
+.expert2 {
+  width: 386px;
+  height: 532px;
+  background-image: url("../images/Photo\ \(copy\ 1\).svg");
+  background-repeat: no-repeat;
+}
+.expert3 {
+  width: 386px;
+  height: 532px;
+  background-image: url("../images/Photo3.svg");
+  background-repeat: no-repeat;
+}
