@@ -26,3 +26,104 @@ header a button {
   color: #fff;
   border-radius: 4px;
 }
+/* about page section 1's style */
+.work-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 350px 60px 350px;
+}
+.work-process h5 {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.work-process h2 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  margin: 16px 0 41px 0;
+}
+.work-process ul {
+  display: flex;
+  gap: 31px;
+}
+.work-process ul li {
+  padding: 58px 23px;
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+}
+.work-process ul li h3 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 127%;
+}
+.work-process ul li p {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.187%;
+  padding: 16px 0 37px 0;
+}
+.work-process ul li span {
+  color: #6b77e5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.work-process ul li img {
+  width: 72px;
+  height: 72px;
+  margin: 10px auto 59px;
+}
+/* about page section 1's style */
+.short-video {
+  background-image: url("../images/Maskgroup.svg");
+  background-repeat: no-repeat;
+  padding: 105px 705px;
+}
+.short-video div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.short-video div h5,
+.short-video div p {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.short-video h2 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  padding: 16px 0 21px 0;
+}
+.short-video div img {
+  margin-top: 47px;
+}
