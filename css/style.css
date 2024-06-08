@@ -1,9 +1,14 @@
 /* header styles */
 header {
-  padding: 53px 350px 136px 350px;
+  padding: 53px 350px 0 350px;
+  margin-bottom: 136px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
 }
 header nav ul {
   display: flex;
